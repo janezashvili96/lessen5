@@ -1,0 +1,20 @@
+/* es aris kayframe romelsac jirdeba position:relative */
+@keyframes mymove{
+    /* from{top: 0px;left: 0px; }
+    to{top: 0px;left: 100px; } */
+    0% {top: 0px;left: 0px; transform: rotate(0deg); }
+    25% {top: 0px;left:50px;transform: rotate(25deg);}
+    50% {left: 50px;top: 50px;transform: rotate(50deg);}
+    75% {top: 50px; left: 0px;transform:rotate(360deg);}
+    100% {top: 0px;left: 0px; transform: rotate(0deg);}
+}
+/* es aris kayfram ro melsac ar jirdeba relative */
+/* mozraobs X da Y gerzebze */
+@keyframes mymove1{
+    0% {transform: translatex(0px);}
+    25% {transform: translatex(400px);}
+    50% {transform: translatex(600px);}
+    75% {transform: translatex(800px);}
+    100% {transform: translatex(1000px);}
+}
+
